@@ -33,7 +33,7 @@
   <p class="meta">
     <strong>Sword Simulator</strong><br>
     Operated by <strong>Alma Entertainment</strong><br>
-    Last updated: June 26, 2026
+    Last updated: July 24, 2026
   </p>
 
   <p>
@@ -48,6 +48,7 @@
     <li>We do <strong>not</strong> operate our own user accounts or game servers.</li>
     <li>Game progress and settings are stored <strong>locally on your device</strong>.</li>
     <li>We use <strong>Google AdMob</strong> for rewarded and interstitial advertisements.</li>
+    <li>We use <strong>Firebase Crashlytics</strong> (Google) to collect crash and error reports so we can fix bugs.</li>
     <li>Purchases are processed by <strong>Google Play</strong> or the <strong>Apple App Store</strong>.</li>
     <li>Local PvP (Android) uses Google Nearby Connections (Bluetooth / Wi‑Fi); we do not receive that data on our servers.</li>
   </ul>
@@ -108,6 +109,20 @@
     Battle mode connects directly between nearby devices using Google Nearby Connections.
     Messages (e.g. player name, battle actions) are exchanged <strong>device-to-device</strong>.
     Alma Entertainment does not collect, store, or access this communication on our servers.
+  </p>
+
+  <h2>5.1 Crash reporting (Firebase Crashlytics)</h2>
+  <p>
+    The App uses <strong>Google Firebase Crashlytics</strong> to automatically collect
+    information when the App crashes or encounters certain technical errors (for example
+    stack traces, device model, OS version, and App version). This helps us diagnose and
+    fix bugs. Crash reports are processed by Google according to
+    <a href="https://policies.google.com/privacy" rel="noopener">Google’s Privacy Policy</a>
+    and Firebase terms. We do not use Crashlytics to build advertising profiles.
+  </p>
+  <p>
+    If Google Analytics is enabled in our Firebase project, limited analytics events may
+    also be used as context (“breadcrumb” logs) around a crash. See Google’s policies for details.
   </p>
 
   <h2>6. Children</h2>
